@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Aroma (Sidhu Moosewala)", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "B&W (Sidhu Moosewala)", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Bitch I'm Back (Sidhu Moosewala)", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Brown Shortie (Sidhu Moosewala)", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Built Different (Sidhu Moosewala)", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Celebrity Killer (Sidhu Moosewala)", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "GOAT (Sidhu Moosewala)", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Invincible (Sidhu Moosewala)", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Malwa Block (Sidhu Moosewala)", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Me and My Girlfriend (Sidhu Moosewala)", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Aroma", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "B&W", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Bitch I'm Back", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Brown Shortie", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Built Different", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Celebrity Killer", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "GOAT", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Invincible", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Malwa Block", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Me and My Girlfriend", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
