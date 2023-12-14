@@ -24,6 +24,7 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+    cursor: pointer;
 }
 .brand img{
     width: 44px;
@@ -49,6 +50,13 @@ nav ul li{
    padding: 34px;
    background-image: url('bg.jpg');
    background-repeat: no-repeat;
+}
+.songList h1 a{
+    text-decoration: none;
+    background: var(--Primary-Gradient, linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bottom{
@@ -116,31 +124,15 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 670px) {
-      .songInfo{
-          left: 200px;
-          top: 40px;
-      }
-      .icons{
-        margin-top: 30px;
+@media only screen and (max-width: 600px){
+   .icons{
+     margin-top: 40px;
     }
-}
-@media only screen and (max-width: 620px) {
     .songInfo{
-        left: 156px;
-        top: 40px;
+        left: 20vw;
+        top: 9vw;
     }
-    .icons{
-      margin-top: 30px;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-    .songInfo{
-        left: 50px;
-        top: 40px;
+    .song{
+        width: 60px;
     }
-    .icons{
-      margin-top: 30px;
-  }
 }
